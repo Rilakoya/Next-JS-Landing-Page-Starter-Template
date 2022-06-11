@@ -2,6 +2,7 @@ import className from 'classnames';
 import { useRouter } from 'next/router';
 
 type IVerticalFeatureRowProps = {
+  id?: string;
   title: string;
   description: string;
   image: string;
@@ -23,7 +24,7 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
   const router = useRouter();
 
   return (
-    <div className={verticalFeatureClass}>
+    <div className={verticalFeatureClass} id={props.id}>
       <div className="w-full sm:w-1/2 text-center sm:px-6">
         <h3 className="text-3xl text-gray-900 font-semibold">{props.title}</h3>
         <div className="mt-6 text-xl leading-9">{props.description}</div>
