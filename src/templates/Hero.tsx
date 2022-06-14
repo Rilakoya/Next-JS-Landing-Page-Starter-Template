@@ -17,6 +17,11 @@ const Hero = () => (
           </Link>
         </li>
         <li>
+          <Link href="#vf2">
+            <a>VerticalFeature2</a>
+          </Link>
+        </li>
+        <li>
           <Link href="/">
             <a>Sign in</a>
           </Link>
