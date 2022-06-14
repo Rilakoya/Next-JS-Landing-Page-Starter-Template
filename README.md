@@ -1,4 +1,4 @@
-Currently deployed to: https://next-js-landing-page-starter-template-fawn.vercel.app/
+Currently deployed to: [https://next-js-landing-page-starter-template-rho.vercel.app/](https://next-js-landing-page-starter-template-rho.vercel.app/)
 
 ----------
 
